@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card_design</title>
+    <style>
+        body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.image img{
+    width: 100%;
+}
+.content{
+    padding: 20px;
+}
+.tags{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.tag{
+    background-color: rgb(224, 231, 255);
+    color: rgb(29, 78, 216);
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.card-title{
+    font-size: 24px;
+    color: rgb(31, 41, 55);
+    margin: 10px 0px;
+}
+.card-text{
+    font-size: 14px;
+    color: rgb(107, 114, 128);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    
+}
+.read-more{
+    display: inline-block;
+    background-color: rgb(59, 130, 246);
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.read-more:hover{
+    background-color: rgb(40, 87, 162);
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="https://c4.wallpaperflare.com/wallpaper/362/163/782/beautiful-nature-landscape-lake-mountains-trees-village-blue-sky-white-clouds-wallpaper-preview.jpg" alt="nature and lake">
+        </div>
+        <div class="content">
+            <div class="tags">
+                <span class="tag">nature</span>
+                <span class="tag">lake</span>
+            </div>
+            <h2 class="card-title">Beatuiful Nature</h2>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam cumque ad reprehenderit voluptatum? Cumque necessitatibus nulla </p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
