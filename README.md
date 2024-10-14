@@ -4,7 +4,10 @@ This repository contains a simple card design built using HTML and CSS. The card
 
 ## Preview
 
-![Card Design](https://c4.wallpaperflare.com/wallpaper/362/163/782/beautiful-nature-landscape-lake-mountains-trees-village-blue-sky-white-clouds-wallpaper-preview.jpg)
+![Card Design](## Preview
+
+![Card Design](assets/Screenshot_1.png)
+)
 
 ## Technologies Used
 
