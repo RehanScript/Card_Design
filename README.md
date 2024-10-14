@@ -4,8 +4,6 @@ This repository contains a simple card design built using HTML and CSS. The card
 
 ## Preview
 
-![Card Design](## Preview
-
 ![Card Design](assets/Screenshot_1.png)
 )
 
